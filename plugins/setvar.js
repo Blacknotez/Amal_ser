@@ -90,15 +90,15 @@ All setvars are
  To get a song when your number is mentioned
  .setvar TAG_REPPLY:your jid 
 
-     *happy using Amalser bot ❣️*
+     *happy using αrσrα bot ❣️*
 
-*Editing And Devaloper : Amal -Amalser*
+*Editing And Devaloper : blacknotez *
 
-*Erorr Fixing : Farhan -Julie Mwol 💌*
+*Erorr Fixing : Blacknotez 💌*
 
-*Supporting : Afnan -Pinky 💌*
+*Supporting : ragnork-vin4j 💌*
 
-*User Support : Adhithhari ✨️*
+*User Support : arora✨️*
 
       ═════💢💢═════
 `}) 
