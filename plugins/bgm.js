@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 afnanplk
+/* Copyright (C) 2021 blackntez
 */
 
 const Asena = require('../events');
