@@ -1,6 +1,4 @@
-/* Copyright (C) 2020 afnanplk
-PINKY V2
-*/
+
 
 const Asena = require('../events');
 const config = require('../config');
