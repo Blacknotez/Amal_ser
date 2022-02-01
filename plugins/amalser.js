@@ -46,22 +46,22 @@ notheri()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*Dont use badwords....* \n 😅 *Dont share other groups links here....* \n *No warning ⚠️ After kick i will say* 😅😅'
+if (Config.LANG == 'EN') ldc = '*Dont use bot....* \n 😅 *Dont share other groups links here....* \n *No warning ⚠️ After kick i will say* 😅😅'
 if (Config.LANG == 'ML') ldc = '*ഓക്കേ ഡാ കുട്ടാ *'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
-Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: true, deleteCommand: false}, (async (message, match) => {
     if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
-        let regex1 = new RegExp('thayoli')
-        let regex2 = new RegExp('Myre')
-        let regex3 = new RegExp('kundan')
-        let regex4 = new RegExp('poor')
+        let regex1 = new RegExp('.alive')
+        let regex2 = new RegExp('.help')
+        let regex3 = new RegExp('.list')
+        let regex4 = new RegExp('.song')
         let regex5 = new RegExp('https://chat.whatsapp.com/')
-        let regex6 = new RegExp('andi')
-        let regex7 = new RegExp('myr')
+        let regex6 = new RegExp('.insta')
+        let regex7 = new RegExp('.story')
         let regex8 = new RegExp('Fuck')
         let regex9 = new RegExp('oombi')
         let regex10 = new RegExp('myran')
