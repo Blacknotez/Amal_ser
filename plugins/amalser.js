@@ -24,7 +24,7 @@ let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
 async function checkUsAdmin(message, user = message.data.participant) {
     var grup = await message.client.groupMetadata(message.jid);
-    var sonuc = grup['participants'].map((member) => {     
+    var sonuc = grup['group'].map((member) => {     
         if (member.jid.split("@")[0] == user.split("@")[0] && member.isAdmin) return true; else; return false;
     });
     return sonuc.includes(true);
