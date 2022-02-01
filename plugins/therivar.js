@@ -18,8 +18,8 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
    
     if (config.LANG == 'EN') {
         l_dsc = 'turn on & off anti-badword To remove members when they use bad words'        
-        THERI_on = 'ʙᴀᴅ ᴡᴏʀᴅ ʀᴇᴍᴏᴠɪɴɢ ɪꜱ ᴛᴜʀɴᴇᴅ ᴏɴ'
-        THERI_off = 'ʙᴀᴅ ᴡᴏʀᴅ ʀᴇᴍᴏᴠɪɴɢ ɪꜱ ᴛᴜʀɴᴇᴅ ᴏꜰꜰ'
+        THERI_on = 'bot use ʀᴇᴍᴏᴠɪɴɢ ɪꜱ ᴛᴜʀɴᴇᴅ ᴏɴ'
+        THERI_off = 'bot use ʀᴇᴍᴏᴠɪɴɢ ɪꜱ ᴛᴜʀɴᴇᴅ ᴏꜰꜰ'
     }
    
    
@@ -29,7 +29,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         THERI_off = 'മോശം വാക്ക് നീക്കംചെയ്യൽ ഓഫാക്കി'
     }
    
-    Asena.addCommand({pattern: 'antibadword ?(.*)', fromMe: true, desc: l_dsc, usage: '.antibadword on / off' }, (async (message, match) => {
+    Asena.addCommand({pattern: 'botuse ?(.*)', fromMe: true, desc: l_dsc, usage: '.botuse on / off' }, (async (message, match) => {
         if (match[1] == 'off') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
